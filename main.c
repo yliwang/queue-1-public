@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-#include "stack.h"
+#include "queue.h"
 
 void main()
 {
 	/* */
-	struct stack *s;
-	s = create_stack();
+	struct queue q;
+	
+	init_queue(&q );
 
-  /* other test code */
+  	/* other test code */
 
-	free(s);
 }
