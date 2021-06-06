@@ -4,7 +4,7 @@
 
 struct queue
 {
-	T store[#define MAX_ELE];
+	T store[MAX_ELE];
 	int count;
 	int front_index;
 };
